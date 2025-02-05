@@ -1,0 +1,15 @@
+---
+
+import CommentCarousel from "./carousel-comment/CarouselComment";
+import testimonials from "../data/testimonials.json"
+
+const comments = testimonials.comments;
+
+---
+    <div class="container py-10 mx-auto px-6">
+      <h2 class="text-3xl text-white sm:text-4xl md:text-6xl font-bold text-left px-6">Testimonios</h2>
+        <p class="mt-4 text-lg text-gray-400 text-left mb-5 px-6">Esto es lo que nuestros clientes opinan de nosotros.</p>
+      <CommentCarousel comments={comments} client:load />
+    </div>
+
+

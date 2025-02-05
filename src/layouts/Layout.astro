@@ -1,0 +1,40 @@
+---
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Kreadium - Construimos tu presencia digital" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style is:global>
+	:root {
+		--accent: #4CD6C0;
+		--accent-hover:#09b397;
+		--bg-dark: #1A1D1F;
+		--text-light: #ffffff;
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background: var(--bg-dark);
+		color: var(--text-light);
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+</style>

@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import ServiceSelector from '../components/ServiceSelector.astro';
+import ServicesItems from '../components/ServicesItems.astro';
+import Testimonials from '../components/Testimonials.astro';
+import ContactForm from '../components/contact-form/ContactForm';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Kreadium - Construimos tu presencia digital">
+	<Header />
+		<Hero />
+	<main>
+		<ServicesItems />
+		<ServiceSelector />
+		<Testimonials />
+		<ContactForm client:load/>
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	main {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+</style>

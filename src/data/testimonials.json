@@ -1,0 +1,46 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "name": "Juan Pérez",
+      "rating": 5,
+      "description": "Excelente servicio, lo recomiendo 100% para emprendedores."
+    },
+    {
+      "id": 2,
+      "image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "name": "María José López",
+      "rating": 5,
+      "description": "La experiencia fue increíble, sin duda volveré."
+    },
+    {
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/men/20.jpg",
+      "name": "Carlos Ramírez",
+      "rating": 5,
+      "description": "Un sitio fenomenal, atención rápida a todos mis requerimientos."
+    },
+    {
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/men/30.jpg",
+      "name": "Alejandro Caceres",
+      "rating": 5,
+      "description": "Excelente servicio, recomiendo trabajar con Kreadium."
+    },
+    {
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/women/15.jpg",
+      "name": "Francisca Araya",
+      "rating": 5,
+      "description": "La experiencia fue increíble, sin duda volveré con ellos."
+    },
+    {
+      "id": 6,
+      "image": "https://randomuser.me/api/portraits/men/40.jpg",
+      "name": "Andres Miranda",
+      "rating": 5,
+      "description": "Ahora tengo mi sitio web funcional y productivo, gracias Kreadium."
+    }
+  ]
+}
